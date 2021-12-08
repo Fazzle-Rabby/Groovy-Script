@@ -14,7 +14,7 @@ pipeline script
 // script
 node{
     stage("Pull Sourcecode from Github"){
-        git 'https://github.com/Fazzle-Rabby/Docker-Project.git'
+        git 'https://github.com/Fazzle-Rabby/Groovy-Script.git'
     }
     
     stage("Build Dockerfile"){
